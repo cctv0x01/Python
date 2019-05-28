@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=8" /><title>
+	西安市商品住房认购登记平台
+</title><link href="resources/css/main.css" rel="stylesheet" />
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/layer/layer.js"></script>
+    <script src="resources/js/main.js?d=2018-7-9"></script>
+</head>
+<body>
+    <form method="post" action="./xmgs.aspx?state=1" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="9xayUR+aPnnX24tD+P1wLnUjZnjx7ii6vpdONd8Ganh5j8ai362H8M6D0jvQ2QSEEXc1yqPUb018T2z0QDh/62hpoIIvASWI35wvw4VOSSw=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4E920C22" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="gk4FjD0ztVOAMLmylkxAs9c2DTzu+vIR2/VhoxitwVwG0l034KXtLMvzvQYBbUT0Gkc38tQ1VIHeuxj0eDfL/FqV15BPnjGH7BHZlOGqW+V86WLplUarkqcGPXx/8V2mYzQLCgWjqXIXJb9PZp2gIw==" />
+        
+        
+<link href="resources/css/header.css" rel="stylesheet" />
+<div id="Wuc_header_header00" class="header header00 top00">
+    <img src="resources/images/topimg00.jpg" />
+</div>
+
+
+        
+        <input type="hidden" name="hidDayDjsj" id="hidDayDjsj" value="8-18" />
+        <div class="bgwhite caq_tbtsdiv">
+            <div class="caq_tbts">
+                <div class="caq_tbtsTxt">
+                   新城区、碑林区、莲湖区、雁塔区、未央区、灞桥区行政管理区域及高新区、经开区、曲江新区、浐灞生态区、航天基地、国际港务区等开发区规划区域公示项目由西安市住房保障和房屋管理局负责，监督投诉电话：12345。
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="bgwhite  mag_tb">
+                <div class="mag_b10 prel pad_10 pad_t25">
+                    <div class="tc size22 pad_lr20">意向登记项目公示</div>
+                    <div class="fR size16 vm mag_r20 mag_b10 return_Btn weight700" onclick="location.href='index.html'">首页</div>
+                </div>
+                <div>
+                    <div class="xmgs_tab">
+                        <span data-id="-1" onclick ="shownewtab(-1,'00')">全部<font>(371)</font></span>
+                        <span data-id="1" class="zzdj" onclick ="shownewtab(1,'00')">正在登记<font>(5)</font></span>
+                        <span data-id="2" class="zzdj" onclick ="shownewtab(2,'00')">暂未开始<font>(0)</font></span>
+                        <span data-id="4" onclick ="shownewtab(4,'00')">登记结束<font>(366)</font></span>
+                        <div class="myyxdjBtn"onclick="location.href='sfrz.aspx?qy=00&aim=1'">
+                             我的意向登记
+                         </div>
+                    </div>
+                    <script type="text/javascript">
+                        $(".xmgs_tab .zzdj").each(function () {
+                            if ($(this).find("font").text() == "(0)") {
+                                $(this).hide();
+                            }
+                        })
+                    </script>
+                </div>
+                <div class="mag_b10 prel pad_10 pad_t25">
+                    <input type="submit" name="btnSubmit" value="" id="btnSubmit" disabled="disabled" class="aspNetDisabled" style="display:none;" />
+                    <div class="prel xmmcSearchDiv">
+                        <span class="mag_r10">项目名称</span>
+                        <input class="xmmcSearch" type="text" value=""  id="txtSearch"  onkeypress="search(window.event?event.keyCode:event.which,'xmgs.aspx')"/>
+                        <div class="xmgs_searchBtn" 
+                            onclick="search(13,'xmgs.aspx')" >搜索</div>
+                        <div id="divDayDjsj" class="pab right_20 size14 top_8 color_999999">登记时间为：08:00-18:00</div>
+                    </div>
+                </div>
+                <div class="grayLine"></div>
+                <div class=" mag_b20 pad_20">
+                    
+                    <div>
+                        <div class="xmgsList">
+                            
+                                    <div class="xmgsItem">
+                                        <div class="fR xmgsBox bs_b pad_20 prel">
+                                             <div class="size21 prel mag_b10"><span class="isInlineblock  textOverflow vm" title=" 曲江风华A地块4#"   class='isInlineblock  textOverflow vm xmgsSpan' 
+                                                 style="max-width:315px;"> 曲江风华A地块4# </span>
+                                                 <img style="vertical-align:bottom;margin-bottom:2px;" src="resources/images/zzdj.png" /> 
+                                                 <span class="vm mag_l10 ">
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="goUrl('http://fgj.xa.gov.cn/ygsf/xmys.aspx?yhxmbh=0000000903')"><img class="mag_r5 vm" src="resources/images/xmgkIcon.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">项目概况</span> </span>
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="layer.open({title: false,type: 2,area: ['950px', '675px'],skin: 'layui-layer-rim',content: 'xmxq.aspx?yxbh=0000000903',scrollbar: false});">
+                                                         <img class="mag_r5 vm" src="resources/images/gg.png" />
+                                                         <span class="color_e34156 vm size16 isInlineblock mag_b3">销售公告</span>
+                                                     </span>
+                                                 <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3"  onclick="layer.open({title: false,type: 2,area: ['840px', '622px'],skin: 'layui-layer-rim',content: 'xmtj.aspx?yxbh=0000000903',scrollbar: false});">  <img class="mag_r5 vm" src="resources/images/tj.png" /><span class="vm isInlineblock mag_b3">登记情况</span></span>  
+                                                   </span> 
+                                                   
+                                                 <span class="vm mag_l10" onclick="layer.open({title: false,type: 2,area: ['950px', '650px'],skin: 'layui-layer-rim',content: 'xmjd.aspx?yxbh=0000000903',scrollbar: false});"><img class="mag_r5 vm" src="resources/images/jd.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">进度</span></span>
+                                                  
+                                                 <div class="pab right_160 top_8 size18 fontGeorgia">
+                                                    <span class="color_e34156" style="position:relative;bottom:4px;"><img class="vm mag_r10" src="resources/images/phone.png" />029-85566666</span>    
+                                                </div>                                             
+                                             </div>
+                                            <table class=" w_100">
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">开发企业名称：</span><span title="西安朔坤房地产开发有限公司" class="vm isInlineblock max_w426 textOverflow">西安朔坤房地产开发有限公司</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">意向登记时间：</span><span class="vm max_w353 color_e34156">2019-05-21 08:00至 2019-05-23 18:00</span></td>
+                                                </tr>
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售楼幢号：</span><span title="4，8，9(全部可售房源共265套)" class="vm isInlineblock wrap max_w426" >4，8，9<span class="mag_l5">(全部可售房源共<font class="color_e34156">265</font>套)</span></span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售证号：</span><span title="2019169,2018259" class="vm isInlineblock max_w353 wrap">2019169,2018259</span></td>
+                                                </tr>
+                                                 <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">现场接受资料时间：</span><span class="vm max_w426">2019-05-21 09:00至 2019-05-24 18:00</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm" >现场接受资料地点：</span><div class="vm isInlineblock wrap max_w426" style="word-break:break-all;word-wrap:break-word;">曲江新区新开门南路和裴家埪路十字（金地中心风华营销中心）</div></td>
+                                                </tr>
+                                            </table>
+                                            
+                                               <div class="pab right_20 top_20"><div class="lh_35 size16 tc bgE05262 color_white  djzt "><span onclick="time_range('11','0000000903','00',$('#hidDayDjsj').val());">我要登记</span></div><div class="djztb bd_red">距结束还剩54:30</div></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                
+                                    <div class="xmgsItem">
+                                        <div class="fR xmgsBox bs_b pad_20 prel">
+                                             <div class="size21 prel mag_b10"><span class="isInlineblock  textOverflow vm" title=" 天地源.曲江香都E区"   class='isInlineblock  textOverflow vm xmgsSpan' 
+                                                 style="max-width:315px;"> 天地源.曲江香都E区 </span>
+                                                 <img style="vertical-align:bottom;margin-bottom:2px;" src="resources/images/zzdj.png" /> 
+                                                 <span class="vm mag_l10 ">
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="goUrl('http://fgj.xa.gov.cn/ygsf/xmys.aspx?yhxmbh=0000000888')"><img class="mag_r5 vm" src="resources/images/xmgkIcon.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">项目概况</span> </span>
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="layer.open({title: false,type: 2,area: ['950px', '675px'],skin: 'layui-layer-rim',content: 'xmxq.aspx?yxbh=0000000888',scrollbar: false});">
+                                                         <img class="mag_r5 vm" src="resources/images/gg.png" />
+                                                         <span class="color_e34156 vm size16 isInlineblock mag_b3">销售公告</span>
+                                                     </span>
+                                                 <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3"  onclick="layer.open({title: false,type: 2,area: ['840px', '622px'],skin: 'layui-layer-rim',content: 'xmtj.aspx?yxbh=0000000888',scrollbar: false});">  <img class="mag_r5 vm" src="resources/images/tj.png" /><span class="vm isInlineblock mag_b3">登记情况</span></span>  
+                                                   </span> 
+                                                   
+                                                 <span class="vm mag_l10" onclick="layer.open({title: false,type: 2,area: ['950px', '650px'],skin: 'layui-layer-rim',content: 'xmjd.aspx?yxbh=0000000888',scrollbar: false});"><img class="mag_r5 vm" src="resources/images/jd.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">进度</span></span>
+                                                  
+                                                 <div class="pab right_160 top_8 size18 fontGeorgia">
+                                                    <span class="color_e34156" style="position:relative;bottom:4px;"><img class="vm mag_r10" src="resources/images/phone.png" />029-85259999</span>    
+                                                </div>                                             
+                                             </div>
+                                            <table class=" w_100">
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">开发企业名称：</span><span title="西安天地源曲江房地产开发有限公司" class="vm isInlineblock max_w426 textOverflow">西安天地源曲江房地产开发有限公司</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">意向登记时间：</span><span class="vm max_w353 color_e34156">2019-05-21 08:00至 2019-05-23 18:00</span></td>
+                                                </tr>
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售楼幢号：</span><span title="2，10(全部可售房源共76套)" class="vm isInlineblock wrap max_w426" >2，10<span class="mag_l5">(全部可售房源共<font class="color_e34156">76</font>套)</span></span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售证号：</span><span title="2019172" class="vm isInlineblock max_w353 wrap">2019172</span></td>
+                                                </tr>
+                                                 <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">现场接受资料时间：</span><span class="vm max_w426">2019-05-21 09:00至 2019-05-24 18:00</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm" >现场接受资料地点：</span><div class="vm isInlineblock wrap max_w426" style="word-break:break-all;word-wrap:break-word;">曲江新区南三环与曲池东路（南段）交汇处天地源·大都会营销中心</div></td>
+                                                </tr>
+                                            </table>
+                                            
+                                               <div class="pab right_20 top_20"><div class="lh_35 size16 tc bgE05262 color_white  djzt "><span onclick="time_range('11','0000000888','00',$('#hidDayDjsj').val());">我要登记</span></div><div class="djztb bd_red">距结束还剩54:30</div></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                
+                                    <div class="xmgsItem">
+                                        <div class="fR xmgsBox bs_b pad_20 prel">
+                                             <div class="size21 prel mag_b10"><span class="isInlineblock  textOverflow vm" title=" 碧桂园·香湖湾1号"  class='isInlineblock  textOverflow vm'  
+                                                 style="max-width:315px;"> 碧桂园·香湖湾1号 </span>
+                                                 <img style="vertical-align:bottom;margin-bottom:2px;" src="resources/images/zzdj.png" /> 
+                                                 <span class="vm mag_l10 ">
+                                                      
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="layer.open({title: false,type: 2,area: ['950px', '675px'],skin: 'layui-layer-rim',content: 'xmxq.aspx?yxbh=0000000902',scrollbar: false});">
+                                                         <img class="mag_r5 vm" src="resources/images/gg.png" />
+                                                         <span class="color_e34156 vm size16 isInlineblock mag_b3">销售公告</span>
+                                                     </span>
+                                                 <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3"  onclick="layer.open({title: false,type: 2,area: ['840px', '622px'],skin: 'layui-layer-rim',content: 'xmtj.aspx?yxbh=0000000902',scrollbar: false});">  <img class="mag_r5 vm" src="resources/images/tj.png" /><span class="vm isInlineblock mag_b3">登记情况</span></span>  
+                                                   </span> 
+                                                   
+                                                 <span class="vm mag_l10" onclick="layer.open({title: false,type: 2,area: ['950px', '650px'],skin: 'layui-layer-rim',content: 'xmjd.aspx?yxbh=0000000902',scrollbar: false});"><img class="mag_r5 vm" src="resources/images/jd.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">进度</span></span>
+                                                  
+                                                 <div class="pab right_160 top_8 size18 fontGeorgia">
+                                                    <span class="color_e34156" style="position:relative;bottom:4px;"><img class="vm mag_r10" src="resources/images/phone.png" />029-86611111</span>    
+                                                </div>                                             
+                                             </div>
+                                            <table class=" w_100">
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">开发企业名称：</span><span title="西安碧鸿房地产开发有限公司" class="vm isInlineblock max_w426 textOverflow">西安碧鸿房地产开发有限公司</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">意向登记时间：</span><span class="vm max_w353 color_e34156">2019-05-21 08:00至 2019-05-23 18:00</span></td>
+                                                </tr>
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售楼幢号：</span><span title="24，25，26，31，32(全部可售房源共83套)" class="vm isInlineblock wrap max_w426" >24，25，26，31，32<span class="mag_l5">(全部可售房源共<font class="color_e34156">83</font>套)</span></span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售证号：</span><span title="" class="vm isInlineblock max_w353 wrap">现售</span></td>
+                                                </tr>
+                                                 <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">现场接受资料时间：</span><span class="vm max_w426">2019-05-21 09:00至 2019-05-24 18:00</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm" >现场接受资料地点：</span><div class="vm isInlineblock wrap max_w426" style="word-break:break-all;word-wrap:break-word;">西安市世博大道与香湖湾五路交汇处东北角（西安碧桂园香湖湾1号销售中心）</div></td>
+                                                </tr>
+                                            </table>
+                                            
+                                               <div class="pab right_20 top_20"><div class="lh_35 size16 tc bgE05262 color_white  djzt "><span onclick="time_range('11','0000000902','00',$('#hidDayDjsj').val());">我要登记</span></div><div class="djztb bd_red">距结束还剩54:30</div></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                
+                                    <div class="xmgsItem">
+                                        <div class="fR xmgsBox bs_b pad_20 prel">
+                                             <div class="size21 prel mag_b10"><span class="isInlineblock  textOverflow vm" title=" 新城区韩南韩北城中村改造项目(东方宸院)DK5"   class='isInlineblock  textOverflow vm xmgsSpan' 
+                                                 style="max-width:315px;"> 新城区韩南韩北城中村改造项目(东方宸院)DK5 </span>
+                                                 <img style="vertical-align:bottom;margin-bottom:2px;" src="resources/images/zzdj.png" /> 
+                                                 <span class="vm mag_l10 ">
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="goUrl('http://fgj.xa.gov.cn/ygsf/xmys.aspx?yhxmbh=0000000901')"><img class="mag_r5 vm" src="resources/images/xmgkIcon.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">项目概况</span> </span>
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="layer.open({title: false,type: 2,area: ['950px', '675px'],skin: 'layui-layer-rim',content: 'xmxq.aspx?yxbh=0000000901',scrollbar: false});">
+                                                         <img class="mag_r5 vm" src="resources/images/gg.png" />
+                                                         <span class="color_e34156 vm size16 isInlineblock mag_b3">销售公告</span>
+                                                     </span>
+                                                 <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3"  onclick="layer.open({title: false,type: 2,area: ['840px', '622px'],skin: 'layui-layer-rim',content: 'xmtj.aspx?yxbh=0000000901',scrollbar: false});">  <img class="mag_r5 vm" src="resources/images/tj.png" /><span class="vm isInlineblock mag_b3">登记情况</span></span>  
+                                                   </span> 
+                                                   
+                                                 <span class="vm mag_l10" onclick="layer.open({title: false,type: 2,area: ['950px', '650px'],skin: 'layui-layer-rim',content: 'xmjd.aspx?yxbh=0000000901',scrollbar: false});"><img class="mag_r5 vm" src="resources/images/jd.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">进度</span></span>
+                                                  
+                                                 <div class="pab right_160 top_8 size18 fontGeorgia">
+                                                    <span class="color_e34156" style="position:relative;bottom:4px;"><img class="vm mag_r10" src="resources/images/phone.png" />029-81137777</span>    
+                                                </div>                                             
+                                             </div>
+                                            <table class=" w_100">
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">开发企业名称：</span><span title="西安融创胤达置业有限公司" class="vm isInlineblock max_w426 textOverflow">西安融创胤达置业有限公司</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">意向登记时间：</span><span class="vm max_w353 color_e34156">2019-05-21 08:00至 2019-05-23 18:00</span></td>
+                                                </tr>
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售楼幢号：</span><span title="1，2，3，5(全部可售房源共160套)" class="vm isInlineblock wrap max_w426" >1，2，3，5<span class="mag_l5">(全部可售房源共<font class="color_e34156">160</font>套)</span></span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售证号：</span><span title="2019171" class="vm isInlineblock max_w353 wrap">2019171</span></td>
+                                                </tr>
+                                                 <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">现场接受资料时间：</span><span class="vm max_w426">2019-05-21 09:00至 2019-05-24 18:00</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm" >现场接受资料地点：</span><div class="vm isInlineblock wrap max_w426" style="word-break:break-all;word-wrap:break-word;">韩森路与康乐路交汇处向东100米路南（融创东方宸院营销中心）</div></td>
+                                                </tr>
+                                            </table>
+                                            
+                                               <div class="pab right_20 top_20"><div class="lh_35 size16 tc bgE05262 color_white  djzt "><span onclick="time_range('11','0000000901','00',$('#hidDayDjsj').val());">我要登记</span></div><div class="djztb bd_red">距结束还剩54:30</div></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                
+                                    <div class="xmgsItem">
+                                        <div class="fR xmgsBox bs_b pad_20 prel">
+                                             <div class="size21 prel mag_b10"><span class="isInlineblock  textOverflow vm" title=" 新城区韩南韩北城中村改造项目（东方宸院）DK3-1地块6、8#"   class='isInlineblock  textOverflow vm xmgsSpan' 
+                                                 style="max-width:315px;"> 新城区韩南韩北城中村改造项目（东方宸院）DK3-1地块6、8# </span>
+                                                 <img style="vertical-align:bottom;margin-bottom:2px;" src="resources/images/zzdj.png" /> 
+                                                 <span class="vm mag_l10 ">
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="goUrl('http://fgj.xa.gov.cn/ygsf/xmys.aspx?yhxmbh=0000000900')"><img class="mag_r5 vm" src="resources/images/xmgkIcon.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">项目概况</span> </span>
+                                                      <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3" onclick="layer.open({title: false,type: 2,area: ['950px', '675px'],skin: 'layui-layer-rim',content: 'xmxq.aspx?yxbh=0000000900',scrollbar: false});">
+                                                         <img class="mag_r5 vm" src="resources/images/gg.png" />
+                                                         <span class="color_e34156 vm size16 isInlineblock mag_b3">销售公告</span>
+                                                     </span>
+                                                 <span class="color_e34156 vm mag_l10 size16 isInlineblock mag_b3"  onclick="layer.open({title: false,type: 2,area: ['840px', '622px'],skin: 'layui-layer-rim',content: 'xmtj.aspx?yxbh=0000000900',scrollbar: false});">  <img class="mag_r5 vm" src="resources/images/tj.png" /><span class="vm isInlineblock mag_b3">登记情况</span></span>  
+                                                   </span> 
+                                                   
+                                                 <span class="vm mag_l10" onclick="layer.open({title: false,type: 2,area: ['950px', '650px'],skin: 'layui-layer-rim',content: 'xmjd.aspx?yxbh=0000000900',scrollbar: false});"><img class="mag_r5 vm" src="resources/images/jd.png" /><span class="color_e34156 vm size16 isInlineblock mag_b3">进度</span></span>
+                                                  
+                                                 <div class="pab right_160 top_8 size18 fontGeorgia">
+                                                    <span class="color_e34156" style="position:relative;bottom:4px;"><img class="vm mag_r10" src="resources/images/phone.png" />029-81137777</span>    
+                                                </div>                                             
+                                             </div>
+                                            <table class=" w_100">
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">开发企业名称：</span><span title="陕西恒安昕园置业有限公司" class="vm isInlineblock max_w426 textOverflow">陕西恒安昕园置业有限公司</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">意向登记时间：</span><span class="vm max_w353 color_e34156">2019-05-21 08:00至 2019-05-23 18:00</span></td>
+                                                </tr>
+                                                <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售楼幢号：</span><span title="6，8(全部可售房源共262套)" class="vm isInlineblock wrap max_w426" >6，8<span class="mag_l5">(全部可售房源共<font class="color_e34156">262</font>套)</span></span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm">预（现）售证号：</span><span title="2019173" class="vm isInlineblock max_w353 wrap">2019173</span></td>
+                                                </tr>
+                                                 <tr height="30">
+                                                    <td width="529" align="left"><span class="color_999999 vm">现场接受资料时间：</span><span class="vm max_w426">2019-05-21 09:00至 2019-05-24 18:00</span></td>
+                                                    <td width="529" align="left"><span class="color_999999 vm" >现场接受资料地点：</span><div class="vm isInlineblock wrap max_w426" style="word-break:break-all;word-wrap:break-word;">韩森路与康乐路交汇处向东100米路南（融创东方宸院营销中心）</div></td>
+                                                </tr>
+                                            </table>
+                                            
+                                               <div class="pab right_20 top_20"><div class="lh_35 size16 tc bgE05262 color_white  djzt "><span onclick="time_range('11','0000000900','00',$('#hidDayDjsj').val());">我要登记</span></div><div class="djztb bd_red">距结束还剩54:30</div></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                
+                                    
+                                
+                            <div class="ygzs-page tc xwzx_pagediv">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script type="text/javascript"> xmgsload();</script>
+        
+<link href="resources/css/footer.css" rel="stylesheet" />
+<div class="w2017">
+    <div style="width: 100%; height: 10px;"></div>
+    <div class="footer">
+        <div class="section">
+            <div class="copyright">
+                <div class="mark1">
+                   
+                    <script async="async" type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/27/386/0000/40917719/CA273860000409177190001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                </div>
+                <div class="link2017">
+                    <p>
+                        西安市住房保障和房屋管理局<em></em>版权所有<em></em>西安市房产信息中心<em></em>技术支持
+                    </p>
+                    <p>
+                        <a href="http://www.miibeian.gov.cn/" target="_blank">陕ICP备05011550号</a>
+
+                        <img class="imgwangan" src="resources/images/emblem.png" />
+                        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010402000147">陕公网安备 61010402000147号</a>
+                    </p>
+                    <p>网站标识码：6101000052<em></em>
+                        <a class="website" onclick="window.open('http://fgj.xa.gov.cn/prog/SiteMap.aspx')">网站地图</a>&nbsp;&nbsp;
+                        <a class="website" onclick="window.open('http://fgj.xa.gov.cn/zw/Detail.aspx?firsttypeid=9&id=9563')">联系我们</a>
+                    </p>
+
+                    <p>
+                        网站技术支持热线：029-87617415<em></em>工作日：9:00-12:00，14:00-18:00（夏令时：15:00-18:00）
+                    </p>
+                </div>
+                
+            </div>
+            <div class="mark3" style="left:745px;">
+                   
+                     <script type="text/javascript"  async="async" >
+                         document.write(unescape("%3Cscript id=\"_jiucuo_\" sitecode='6101000052' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'%3E%3C/script%3E"));
+                        </script> 
+            </div>
+            <div class="mark3" onclick="window.open('http://www.shaanxi.gov.cn:8090/index.htlm');">
+                <img src="resources/images/zoneerror.jpg" style="vertical-align: middle;" />
+            </div>
+            <ul>
+                <li class="qr1">
+                    <p style="width: 90px; text-align: left; margin-left: -1px">西安房管微信</p>
+                </li>
+                <li class="qr3" style="line-height: 23px;">
+                    <p style="margin-bottom: 10px; margin-left: -9px;">
+                        西安房管<br>
+                        <span style="font-size: 12px;">新浪、腾讯</span>
+                    </p>
+                    &nbsp
+                    <a href="http://weibo.com/u/3926083150" target="_blank" style="margin-left: 4px;">
+                        <img src="resources/images/sharefocus0102.png" />
+                    </a>
+                    <a href="http://t.qq.com/xafgj_wb" target="_blank" style="margin-left: 4px;">
+                        <img src="resources/images/txweibo.png" />
+                    </a>
+                </li>
+
+            </ul>
+            <div class="clr"></div>
+        </div>
+    </div>
+    <span style="display: none;">
+        <script type="text/javascript" src="https://s4.cnzz.com/stat.php?id=2851712&web_id=2851712"></script>
+        <script type="text/javascript" src="http://hm.baidu.com/h.js?dba247c4516279e648c9ec128654c148"></script>
+    </span>
+</div>
+    </form>
+</body>
+</html>
